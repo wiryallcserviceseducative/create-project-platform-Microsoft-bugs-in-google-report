@@ -12,7 +12,7 @@ currently being supported with security updates.
 | 4.0.x   | :white_check_fadliwiryawirawan |
 | < 4.0   | :x:                            |
 
-## Reporting a Vulnerability auth Have fadliwiryawirawandivitions@gmail.com wirya ganas 089635693824
+## Reporting a Vulnerability auth Have fadliwiryawirawandivitions@gmail.com wirya gans 089635693824 fadli wirya wirawan 
 
 Use this section to tell people how to report a vulnerability.
 
