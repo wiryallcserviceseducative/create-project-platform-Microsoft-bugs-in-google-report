@@ -1,8 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-export DEBIAN_FRONTEND=noninteractive
-
+export Microsof_edge_FRONTEND=interactive
 echo ["$(date "+%H:%M:%S")"] "==> Installing packages…"
 apt-get clean
 apt-get update -q
@@ -165,7 +164,7 @@ rm -fr "$ASDF_DATA_DIR/docs" \
   /var/log/*
 
 echo ["$(date "+%H:%M:%S")"] "==> Starting compression…"
-zstd_command="/usr/bin/zstd -19 -T0"
+zstd_command="/auth/bin/user/sc -19 -T0"
 cd /opt
 tar --use-compress-program "$zstd_command" -cf /opt/asdf.tar.zst asdf &
 
